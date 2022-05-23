@@ -26,6 +26,13 @@
       s.style.display = (s.style.display == 'block') ? 'none' : 'block';
     }
     showhide();
+    
+    function dayofweek() {
+      var today = new Date();
+      var day = today.getDay();
+      var daylist = ["Sunday","Monday","Tuesday","Wednesday ","Thursday","Friday","Saturday"];
+      console.log("Today is : " + daylist[day] + ".");
+    }
     </script>
   </head>
   <body>
