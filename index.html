@@ -19,6 +19,14 @@
       href="reveal.js/plugin/highlight/monokai.css"
       id="highlight-theme"
     />
+    <script type="text/javascript">
+    function showhide() {
+      var d = new Date();
+      var s = document.getElementById(d.getDay());
+      s.style.display = (s.style.display == 'block') ? 'none' : 'block';
+    }
+    showhide();
+    </script>
   </head>
   <body>
     <div class="reveal">
